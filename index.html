@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="container text-center mt-5 w-75">
+            <h1 class="m-3">Smart Login System</h1>
+          
+                <div class="form-group w-75 m-auto">
+        
+                  <input type="email" id="logemail" class="form-control m-5"  aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group  w-75 m-auto">
+                
+                  <input type="password"id="logpassword" class="form-control m-5" placeholder="Password">
+                </div>
+                <button type="submit" id= "btn"class="btn btn-primary " onclick="login()">Sign-in</button>
+             <p class="text-white m-3" > Don't have account <span class="ps-3"><a href="signup.html">singup</a></span></p>
+             <p id="sign" class="text-white"></p>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
